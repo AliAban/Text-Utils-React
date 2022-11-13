@@ -5,11 +5,11 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React, { useState } from 'react'
 import Alert from './components/Alert';
-import {
-  // BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+// import {
+//   // BrowserRouter as Router,
+//   Routes,
+//   Route,
+// } from "react-router-dom";
 
 function App() {
   // code for darkmode  
@@ -64,10 +64,11 @@ function App() {
       <Alert alert={alert}/>
       
       <div className="container my-5">
-        <Routes>
-          <Route path="/" element={<TextForm mode={mode} showAlert={showAlert}/>} />
-          <Route path="/about" element={<About mode={mode}/>} />
-        </Routes>
+        {/* <Routes> */}
+          {/* <Route path="/" element={<TextForm mode={mode} showAlert={showAlert}/>} /> */}
+          {/* <Route path="/about" element={<About mode={mode}/>} /> */}
+        {/* </Routes> */}
+        <TextForm mode={mode} showAlert={showAlert}/>
       </div>
 
     </>
