@@ -49,7 +49,7 @@ export default function TextForm(props) {
             </div>
             <button className="btn btn-primary" onClick={convertToUpperCase}>Convert To UpperCase</button>
             <button className="btn btn-secondary mx-5" onClick={convertToLowerCase}>Convert To LowerCase</button>
-            <button className="btn btn-success mx-5" onClick={toCapitalCase}>Capital case</button>
+            <button className="btn btn-success" onClick={toCapitalCase}>Capital case</button>
         </div>
         <div className="container my-5">
             <h2>Your text summary</h2>
