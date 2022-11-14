@@ -45,9 +45,9 @@ export default function TextForm(props) {
         <div className='container'>
             <div className="mb-3">
                 <h1><label htmlFor="exampleFormControlTextarea1" className="form-label">Enter Text here to analyse it:</label></h1>
-                <textarea className="form-control" value={text} style={{backgroundColor:props.mode === "dark" ? "#525570" : "white"}} onChange={handleOnChange}id="exampleFormControlTextarea1" rows="3" ></textarea>
+                <textarea className="form-control" value={text} style={{backgroundColor:props.mode === "dark" ? "#525570" : "white",color:props.mode === "dark" ? 'white" : "black"}} onChange={handleOnChange}id="exampleFormControlTextarea1" rows="3" ></textarea>
             </div>
-            <button className="btn btn-primary" onClick={convertToUpperCase}>Convert To UpperCase</button>
+            <button className="btn btn-primary" onClick={convertToUpperCase}>Convert text to UpperCase</button>
             <button className="btn btn-secondary mx-5" onClick={convertToLowerCase}>Convert To LowerCase</button>
             <button className="btn btn-success" onClick={toCapitalCase}>Capital case</button>
         </div>

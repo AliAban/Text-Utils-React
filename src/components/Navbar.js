@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
-// import { faMoonStarsStars } from '@fortawesome/free-regular-svg-icons'
 
 
 export default function Navbar(props) {
